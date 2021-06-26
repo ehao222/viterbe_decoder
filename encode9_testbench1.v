@@ -2,7 +2,7 @@
 module encode9_testbench;    
 reg reset, clk,x;  
 wire [1:0] y;     //输入x为1bit，输出y为2bit 
-viterbi_encode9 r1(x, y, clk, reset);      
+viterbi_encoder r1(x, y, clk, reset);      
 /*-----------------------------------*/
 //时钟周期设定（周期为10ns）
 /*-----------------------------------*/
